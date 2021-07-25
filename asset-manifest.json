@@ -1,20 +1,17 @@
 {
   "files": {
-    "main.css": "/multi-step-survey/static/css/main.8c8b27cf.chunk.css",
-    "main.js": "/multi-step-survey/static/js/main.1a11fbc5.chunk.js",
-    "main.js.map": "/multi-step-survey/static/js/main.1a11fbc5.chunk.js.map",
-    "runtime-main.js": "/multi-step-survey/static/js/runtime-main.61bbacc5.js",
-    "runtime-main.js.map": "/multi-step-survey/static/js/runtime-main.61bbacc5.js.map",
-    "static/js/2.e7bb37fc.chunk.js": "/multi-step-survey/static/js/2.e7bb37fc.chunk.js",
-    "static/js/2.e7bb37fc.chunk.js.map": "/multi-step-survey/static/js/2.e7bb37fc.chunk.js.map",
+    "main.css": "/multi-step-survey/static/css/main.8c8b27cf.css",
+    "main.js": "/multi-step-survey/static/js/main.js",
+    "main.js.map": "/multi-step-survey/static/js/main.js.map",
+    "static/js/1.ae788f43.chunk.js": "/multi-step-survey/static/js/1.ae788f43.chunk.js",
+    "static/js/1.ae788f43.chunk.js.map": "/multi-step-survey/static/js/1.ae788f43.chunk.js.map",
     "index.html": "/multi-step-survey/index.html",
-    "static/css/main.8c8b27cf.chunk.css.map": "/multi-step-survey/static/css/main.8c8b27cf.chunk.css.map",
-    "static/js/main.1a11fbc5.chunk.js.LICENSE.txt": "/multi-step-survey/static/js/main.1a11fbc5.chunk.js.LICENSE.txt",
+    "static/css/main.8c8b27cf.css.map": "/multi-step-survey/static/css/main.8c8b27cf.css.map",
+    "static/js/main.js.LICENSE.txt": "/multi-step-survey/static/js/main.js.LICENSE.txt",
     "static/media/logo.6ce24c58.svg": "/multi-step-survey/static/media/logo.6ce24c58.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.61bbacc5.js",
-    "static/css/main.8c8b27cf.chunk.css",
-    "static/js/main.1a11fbc5.chunk.js"
+    "static/css/main.8c8b27cf.css",
+    "static/js/main.js"
   ]
 }
