@@ -5,12 +5,33 @@
   "author": "Kayla Fortin",
   "license": "UNLICENSED",
   "scripts": {
-    "build-dev": "webpack --mode development",
-    "build-prod": "webpack --mode production"
+    "start": "react-scripts start",
+    "dev": "webpack --mode development",
+    "build": "webpack --mode production",
+    "deploy": "npm run build && gh-pages -d build"
   },
-  "dependencies": {},
+  "dependencies": {
+    "babel-loader": "8.1.0",
+    "react": "latest",
+    "react-scripts": "latest"
+  },
   "devDependencies": {
-    "webpack": "^5.46.0",
+    "clean-webpack-plugin": "latest",
+    "gh-pages": "^3.2.3",
+    "html-webpack-plugin": "4.5.0",
+    "webpack": "4.44.2",
     "webpack-cli": "^4.7.2"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
