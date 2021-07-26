@@ -4,11 +4,12 @@
   "description": "",
   "author": "Kayla Fortin",
   "license": "UNLICENSED",
+  "homepage": "http://hennigk.github.io/multi-step-survey",
   "scripts": {
     "start": "react-scripts start",
     "dev": "webpack --mode development",
     "build": "webpack --mode production",
-    "deploy": "npm run build && gh-pages -d build"
+    "deploy": "npm run build && gh-pages -d dist"
   },
   "dependencies": {
     "babel-loader": "8.1.0",
