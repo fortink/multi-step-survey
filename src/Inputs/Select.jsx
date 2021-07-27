@@ -10,7 +10,7 @@ const useStyles = makeStyles((theme) => ({
     },
 }));
 
-export const Select = ({ options, label, required, error, value, handleSingleChange }) => {
+export const SelectInput = ({ options, label, required, error, value, handleSingleChange }) => {
     const classes = useStyles();
 
     return (

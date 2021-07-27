@@ -13,6 +13,9 @@ module.exports = function (env, {mode}) {
             path: path.resolve(__dirname, 'dist'),
             filename: 'main.js',
         },
+        resolve: {
+            extensions: ['.js', '.json', '.jsx'],
+        },
         module: {
             rules: [
                 {

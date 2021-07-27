@@ -1,4 +1,4 @@
-import { MultiCheckbox, RadioButtons, Select, TextInput } from './Inputs';
+import { MultiCheckbox, RadioButtons, SelectInput, TextInput } from './Inputs';
 
 export const ACTIVE_STEP_KEY = 'activeStep';
 
@@ -32,7 +32,7 @@ export const STEPS = [
             {
                 label: LABELS[2],
                 required: true,
-                Component: Select,
+                Component: SelectInput,
                 options: AGE_OPTIONS,
                 initialValue: '',
             },
