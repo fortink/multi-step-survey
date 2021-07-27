@@ -4,7 +4,6 @@
   "description": "",
   "author": "Kayla Fortin",
   "license": "UNLICENSED",
-  "homepage": "http://hennigk.github.io/multi-step-survey",
   "scripts": {
     "start": "react-scripts start",
     "dev": "webpack --mode development",
@@ -12,12 +11,17 @@
     "deploy": "npm run build && gh-pages -d dist"
   },
   "dependencies": {
+    "@material-ui/core": "latest",
     "babel-loader": "8.1.0",
     "react": "latest",
+    "react-dom": "latest",
     "react-scripts": "latest"
   },
   "devDependencies": {
+    "@babel/preset-react": "latest",
     "clean-webpack-plugin": "latest",
+    "eslint": "^7.31.0",
+    "eslint-plugin-react": "^7.24.0",
     "gh-pages": "^3.2.3",
     "html-webpack-plugin": "4.5.0",
     "webpack": "4.44.2",
