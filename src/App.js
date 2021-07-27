@@ -1,8 +1,8 @@
 import { Container, Dialog } from '@material-ui/core';
 import React, { useEffect, useState } from 'react';
-
-import { DialogContent } from './DialogContent';
 import { getLocalStorage, setLocalStorage } from './utils';
+import { DialogBody } from './DialogBody';
+
 // 2 seconds
 const TIMEOUT = 2000;
 const COMPLETED_KEY = 'completed';
@@ -36,7 +36,7 @@ export default function App() {
     return (
         <Dialog open={isActive} fullScreen>
             <Container>
-                <DialogContent onCompleteSurvey={onCompleteSurvey} />
+                <DialogBody onCompleteSurvey={onCompleteSurvey} />
             </Container>
         </Dialog>
     );

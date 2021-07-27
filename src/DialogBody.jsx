@@ -1,10 +1,9 @@
-import { Box, Button, makeStyles, Step, StepButton, Stepper, Typography } from '@material-ui/core';
-import FormControl from '@material-ui/core/FormControl';
+import { Box, Button, makeStyles, Step, StepButton, Stepper, Typography, FormControl } from '@material-ui/core';
 import React from 'react';
 
 import { STEPS } from './constants';
 import { useForm, useInput } from './hooks';
-import ResultTable from './ResultTable';
+import { ResultTable } from './ResultTable';
 
 const useStyles = makeStyles((theme) => ({
     root: {
@@ -56,7 +55,7 @@ const ActiveStep = ({ step, errors, handleValue }) => {
     );
 };
 
-export const DialogContent = ({ onCompleteSurvey }) => {
+export const DialogBody = ({ onCompleteSurvey }) => {
     const classes = useStyles();
     const { state, onNext, onBack, onReset, onSubmit, handleStep, handleValue, isLastStep } = useForm({
         onCompleteSurvey,

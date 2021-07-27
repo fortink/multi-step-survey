@@ -17,7 +17,7 @@ const getFormattedAnswers = ({ label }) => {
     return Array.isArray(answer) ? answer.join(', ') : answer;
 };
 
-export default function ResultTable({ tableConfig }) {
+export const ResultTable = ({ tableConfig }) => {
     const classes = useStyles();
 
     return (
